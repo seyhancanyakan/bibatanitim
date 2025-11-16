@@ -11,6 +11,11 @@ import { HelpCircle } from "lucide-react";
 
 const faqs = [
   {
+    question: "BIBA ChatGPT mi?",
+    answer:
+      "Hayır, BIBA ChatGPT değildir. BIBA özellikle dil eğitimi için tasarlanmış, gerçek zamanlı sesli konuşma yapabilen özel bir yapay zeka sistemidir. ChatGPT genel amaçlı bir metin tabanlı yapay zeka iken, BIBA öğrencilerle canlı, sesli ve görsel etkileşim kurar. BIBA sizi duyar, konuşmanızı dinler, kameranız ile sizi görebilir ve eğitim verisi sunar. Ayrıca öğretmenlere öğrenci takibi ve gelişim raporlama özellikleri sunar. ChatGPT ile sohbet edersiniz, BIBA ile dil pratiği yaparsınız.",
+  },
+  {
     question: "BIBA gerçek bir insan mı?",
     answer:
       "Hayır, BIBA yapay zeka destekli bir sistemdir. Ancak öyle doğal konuşur ki gerçek bir öğretmen gibi hissettirir. Gerçek zamanlı konuşma, mimikler ve görsel etkileşim sayesinde çok gerçekçi bir deneyim sunar.",
