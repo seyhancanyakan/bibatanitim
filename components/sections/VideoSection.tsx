@@ -48,8 +48,8 @@ export default function VideoSection() {
           </p>
         </motion.div>
 
-        {/* Video Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        {/* Video Grid - Portrait/Vertical Videos */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {videos.map((video, index) => (
             <motion.div
               key={index}
@@ -59,11 +59,12 @@ export default function VideoSection() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative"
             >
-              <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl bg-gray-900">
+              <div className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-xl bg-gray-900">
                 <video
                   className="w-full h-full object-cover"
                   controls
                   preload="metadata"
+                  poster={`${video.src}#t=15`}
                 >
                   <source src={video.src} type="video/mp4" />
                   Tarayıcınız video oynatmayı desteklemiyor.
