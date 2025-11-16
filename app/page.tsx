@@ -1,4 +1,5 @@
 import HeroSection from "@/components/sections/HeroSection";
+import VideoSection from "@/components/sections/VideoSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import CharacterSection from "@/components/sections/CharacterSection";
 import UsageSection from "@/components/sections/UsageSection";
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <Navbar />
       <HeroSection />
+      <VideoSection />
       <FeaturesSection />
       <CharacterSection />
       <UsageSection />
