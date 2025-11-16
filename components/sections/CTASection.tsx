@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Sparkles, ArrowRight, Phone, Mail } from "lucide-react";
+import { Sparkles, ArrowRight, Phone } from "lucide-react";
 import Image from "next/image";
 
 export default function CTASection() {
@@ -136,47 +136,6 @@ export default function CTASection() {
           </motion.div>
         </div>
 
-        {/* Contact Info */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-20 text-center"
-        >
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
-            <h3 className="text-2xl font-bold text-white mb-6">
-              Hemen İletişime Geçin
-            </h3>
-            <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-              <a
-                href="mailto:info@yomokullari.com"
-                className="flex items-center space-x-3 text-white hover:text-yellow-300 transition-colors"
-              >
-                <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
-                  <Mail className="w-6 h-6" />
-                </div>
-                <div className="text-left">
-                  <div className="text-sm text-white/80">E-posta</div>
-                  <div className="font-semibold">info@yomokullari.com</div>
-                </div>
-              </a>
-              <div className="hidden md:block w-px h-12 bg-white/20"></div>
-              <a
-                href="tel:+902121234567"
-                className="flex items-center space-x-3 text-white hover:text-yellow-300 transition-colors"
-              >
-                <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
-                  <Phone className="w-6 h-6" />
-                </div>
-                <div className="text-left">
-                  <div className="text-sm text-white/80">Telefon</div>
-                  <div className="font-semibold">+90 (212) 123 45 67</div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
