@@ -61,11 +61,11 @@ export default function VideoSection() {
             >
               <div className="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-xl bg-gray-900">
                 <video
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                   controls
                   preload="metadata"
                   poster={`${video.src}#t=15`}
-                  style={{ objectFit: 'contain' }}
+                  style={{ objectFit: 'cover' }}
                 >
                   <source src={video.src} type="video/mp4" />
                   Tarayıcınız video oynatmayı desteklemiyor.
