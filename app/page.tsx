@@ -1,7 +1,6 @@
 import HeroSection from "@/components/sections/HeroSection";
 import VideoSection from "@/components/sections/VideoSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
-import CharacterSection from "@/components/sections/CharacterSection";
 import UsageSection from "@/components/sections/UsageSection";
 import TechnologySection from "@/components/sections/TechnologySection";
 import FAQSection from "@/components/sections/FAQSection";
@@ -17,11 +16,10 @@ export default function Home() {
       <HeroSection />
       <VideoSection />
       <FeaturesSection />
-      <CharacterSection />
+      <TryBibaSection />
       <UsageSection />
       <TechnologySection />
       <FAQSection />
-      <TryBibaSection />
       <CTASection />
       <Footer />
     </main>

@@ -18,11 +18,10 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "#ozellikler", label: "Özellikler" },
-    { href: "#karakterler", label: "Karakterler" },
+    { href: "#dene", label: "BIBA ile Konuş" },
     { href: "#kullanim", label: "Kullanım" },
     { href: "#teknoloji", label: "Teknoloji" },
     { href: "#sss", label: "S.S.S" },
-    { href: "#dene", label: "BIBA ile Konuş" },
   ];
 
   return (
