@@ -22,6 +22,7 @@ export default function Navbar() {
     { href: "#kullanim", label: "Kullanım" },
     { href: "#teknoloji", label: "Teknoloji" },
     { href: "#sss", label: "S.S.S" },
+    { href: "#dene", label: "BIBA ile Konuş" },
   ];
 
   return (

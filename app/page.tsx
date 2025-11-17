@@ -5,6 +5,7 @@ import CharacterSection from "@/components/sections/CharacterSection";
 import UsageSection from "@/components/sections/UsageSection";
 import TechnologySection from "@/components/sections/TechnologySection";
 import FAQSection from "@/components/sections/FAQSection";
+import TryBibaSection from "@/components/sections/TryBibaSection";
 import CTASection from "@/components/sections/CTASection";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
       <UsageSection />
       <TechnologySection />
       <FAQSection />
+      <TryBibaSection />
       <CTASection />
       <Footer />
     </main>
