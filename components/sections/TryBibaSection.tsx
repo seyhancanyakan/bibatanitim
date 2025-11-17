@@ -88,13 +88,91 @@ export default function TryBibaSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-8 text-center"
+            className="mt-8 space-y-6"
           >
-            <div className="inline-flex items-center space-x-2 bg-blue-50 text-blue-700 px-6 py-3 rounded-xl border border-blue-200">
-              <Sparkles className="w-4 h-4" />
-              <span className="text-sm">
-                İpucu: BIBA&apos;ya &quot;Can you see me?&quot; diyerek görüş özelliğini aktif edebilirsiniz
-              </span>
+            {/* Language Switching Hint */}
+            <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-6 border border-purple-200">
+              <h3 className="text-lg font-bold text-purple-900 mb-4 flex items-center gap-2">
+                <Sparkles className="w-5 h-5" />
+                Dil Değiştirme
+              </h3>
+              <p className="text-sm text-purple-700 mb-3">
+                Konuşmak istediğiniz dil adını söyleyerek otomatik dil değiştirebilirsiniz:
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <div className="bg-white rounded-lg p-3 border border-purple-200">
+                  <span className="text-sm font-semibold text-purple-900">&quot;Speak English&quot;</span>
+                  <p className="text-xs text-gray-600 mt-1">İngilizceye geçiş</p>
+                </div>
+                <div className="bg-white rounded-lg p-3 border border-purple-200">
+                  <span className="text-sm font-semibold text-purple-900">&quot;Speak Turkish&quot;</span>
+                  <p className="text-xs text-gray-600 mt-1">Türkçeye geçiş</p>
+                </div>
+                <div className="bg-white rounded-lg p-3 border border-purple-200">
+                  <span className="text-sm font-semibold text-purple-900">&quot;Speak French&quot;</span>
+                  <p className="text-xs text-gray-600 mt-1">Fransızcaya geçiş</p>
+                </div>
+              </div>
+              <p className="text-xs text-purple-600 mt-3 italic">
+                💡 İpucu: Diğer diller için de &quot;Speak [Dil Adı]&quot; formatını kullanabilirsiniz (Spanish, German, Italian, vb.)
+              </p>
+            </div>
+
+            {/* Wake Words Section */}
+            <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl p-6 border border-orange-200">
+              <h3 className="text-lg font-bold text-orange-900 mb-4 flex items-center gap-2">
+                <MessageCircle className="w-5 h-5" />
+                Wake Word&apos;ler (Uyandırma Kelimeleri)
+              </h3>
+              <p className="text-sm text-orange-700 mb-4">
+                BIBA ile etkileşime geçmek için kullanabileceğiniz özel komutlar:
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-white rounded-lg p-4 border border-orange-200">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-orange-100 rounded-full p-2">
+                      <Sparkles className="w-4 h-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-orange-900 mb-1">&quot;Can you see me?&quot;</h4>
+                      <p className="text-xs text-gray-600">Görüntü özelliğini aktif eder, BIBA sizi görebilir</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-orange-200">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-orange-100 rounded-full p-2">
+                      <MessageCircle className="w-4 h-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-orange-900 mb-1">&quot;Hey BIBA&quot;</h4>
+                      <p className="text-xs text-gray-600">BIBA&apos;nın dikkatini çeker ve konuşmayı başlatır</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-orange-200">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-orange-100 rounded-full p-2">
+                      <Sparkles className="w-4 h-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-orange-900 mb-1">&quot;Stop listening&quot;</h4>
+                      <p className="text-xs text-gray-600">BIBA&apos;nın dinlemeyi durdurmasını sağlar</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-orange-200">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-orange-100 rounded-full p-2">
+                      <MessageCircle className="w-4 h-4 text-orange-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-orange-900 mb-1">&quot;Start listening&quot;</h4>
+                      <p className="text-xs text-gray-600">BIBA&apos;nın tekrar dinlemeye başlamasını sağlar</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </motion.div>
         </motion.div>
