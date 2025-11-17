@@ -71,7 +71,7 @@ export default function HeroSection() {
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
             >
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                BIBA
+                BiBA
               </span>
               <br />
               <span className="text-gray-800">
@@ -151,7 +151,7 @@ export default function HeroSection() {
             <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/resim/Ekran görüntüsü 2025-11-16 121955.png"
-                alt="BIBA YÖM Koleji - Öğrenci Kullanımı"
+                alt="BiBA YÖM Koleji - Öğrenci Kullanımı"
                 fill
                 className="object-contain"
                 priority

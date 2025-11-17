@@ -96,7 +96,7 @@ export default function TechnologySection() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            BIBA, birbirini tamamlayan akıllı sistemlerden oluşur. Her sistem,
+            BiBA, birbirini tamamlayan akıllı sistemlerden oluşur. Her sistem,
             en iyi öğrenme deneyimi için optimize edilmiştir.
           </p>
         </motion.div>
@@ -161,7 +161,7 @@ export default function TechnologySection() {
                 Sistem Mimarisi
               </h3>
               <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-                BIBA&apos;nın arkasındaki güçlü altyapı
+                BiBA&apos;nın arkasındaki güçlü altyapı
               </p>
             </div>
 

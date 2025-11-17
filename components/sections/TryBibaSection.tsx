@@ -21,11 +21,11 @@ export default function TryBibaSection() {
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-              BIBA ile Konuş
+              BiBA ile Konuş
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Hemen şimdi BIBA ile İngilizce pratik yapın! Gerçek zamanlı konuşma deneyimini yaşayın.
+            Hemen şimdi BiBA ile İngilizce pratik yapın! Gerçek zamanlı konuşma deneyimini yaşayın.
           </p>
         </motion.div>
 
@@ -42,7 +42,7 @@ export default function TryBibaSection() {
             <div className="bg-gradient-to-r from-orange-600 to-red-600 p-4 flex items-center justify-between">
               <div className="flex items-center space-x-3">
                 <Sparkles className="w-5 h-5 text-white animate-pulse" />
-                <span className="text-white font-semibold">BIBA Canlı Demo</span>
+                <span className="text-white font-semibold">BiBA Canlı Demo</span>
               </div>
               <div className="flex space-x-2">
                 <div className="w-3 h-3 rounded-full bg-green-400 animate-pulse"></div>
@@ -55,7 +55,7 @@ export default function TryBibaSection() {
               <iframe
                 src="https://biba2.sozy.io"
                 className="w-full h-full border-0"
-                title="BIBA Interactive Demo"
+                title="BiBA Interactive Demo"
                 allow="camera; microphone; autoplay"
                 sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals"
               />
@@ -93,7 +93,7 @@ export default function TryBibaSection() {
             <div className="inline-flex items-center space-x-2 bg-blue-50 text-blue-700 px-6 py-3 rounded-xl border border-blue-200">
               <Sparkles className="w-4 h-4" />
               <span className="text-sm">
-                İpucu: BIBA&apos;ya &quot;Can you see me?&quot; diyerek görüş özelliğini aktif edebilirsiniz
+                İpucu: BiBA&apos;ya &quot;Can you see me?&quot; diyerek görüş özelliğini aktif edebilirsiniz
               </span>
             </div>
           </motion.div>

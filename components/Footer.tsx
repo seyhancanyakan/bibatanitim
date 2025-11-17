@@ -14,7 +14,7 @@ export default function Footer() {
                 B
               </div>
               <div>
-                <div className="text-xl font-bold text-white">BIBA</div>
+                <div className="text-xl font-bold text-white">BiBA</div>
                 <div className="text-xs text-gray-400">YÖM Special Edition</div>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            &copy; 2025 BIBA - YÖM Okulları. Tüm hakları saklıdır.
+            &copy; 2025 BiBA - YÖM Okulları. Tüm hakları saklıdır.
           </p>
           <div className="flex justify-center space-x-6 mt-4">
             <a href="#" className="text-xs text-gray-400 hover:text-blue-400 transition-colors">

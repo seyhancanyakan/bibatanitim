@@ -6,23 +6,23 @@ import { Play } from "lucide-react";
 const videos = [
   {
     src: "/video/1(1).mp4",
-    title: "BIBA Demo 1",
+    title: "BiBA Demo 1",
   },
   {
     src: "/video/2.mp4",
-    title: "BIBA Demo 2",
+    title: "BiBA Demo 2",
   },
   {
     src: "/video/3.mp4",
-    title: "BIBA Demo 3",
+    title: "BiBA Demo 3",
   },
   {
     src: "/video/4.mp4",
-    title: "BIBA Demo 4",
+    title: "BiBA Demo 4",
   },
   {
     src: "/video/5.mp4",
-    title: "BIBA Demo 5",
+    title: "BiBA Demo 5",
   },
 ];
 
@@ -40,11 +40,11 @@ export default function VideoSection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              BIBA Kullanım Videoları
+              BiBA Kullanım Videoları
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            BIBA&apos;yı çalışırken izleyin ve öğrencilerinizin nasıl öğrendiğini görün
+            BiBA&apos;yı çalışırken izleyin ve öğrencilerinizin nasıl öğrendiğini görün
           </p>
         </motion.div>
 

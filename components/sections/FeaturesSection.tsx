@@ -19,7 +19,7 @@ const features = [
     icon: Mic,
     title: "Gerçek Zamanlı Konuşma",
     description:
-      "Push-to-talk sistemiyle anında konuşun. BIBA sizi dinler ve saniyeler içinde cevap verir. Doğal diyalog akışı.",
+      "Push-to-talk sistemiyle anında konuşun. BiBA sizi dinler ve saniyeler içinde cevap verir. Doğal diyalog akışı.",
     color: "from-blue-500 to-blue-600",
     image: "/resim/39kSgwlMnMqHphgI7Bezn.png",
   },
@@ -27,7 +27,7 @@ const features = [
     icon: Eye,
     title: "Görme Yeteneği",
     description:
-      "BIBA sizi kamera ile görebilir! 'How do I look?' dediğinizde size bakıp İngilizce yorum yapar. Çevrenizi analiz eder.",
+      "BiBA sizi kamera ile görebilir! 'How do I look?' dediğinizde size bakıp İngilizce yorum yapar. Çevrenizi analiz eder.",
     color: "from-purple-500 to-purple-600",
     image: "/resim/4f3cX3-GGSgJJgq6X-bHU.png",
   },
@@ -95,7 +95,7 @@ export default function FeaturesSection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              BIBA&apos;nın Güçlü Özellikleri
+              BiBA&apos;nın Güçlü Özellikleri
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

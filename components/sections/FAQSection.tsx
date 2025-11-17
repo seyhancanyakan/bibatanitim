@@ -11,19 +11,19 @@ import { HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "BIBA ChatGPT mi?",
+    question: "BiBA ChatGPT mi?",
     answer:
-      "Hayır, BIBA ChatGPT değildir. BIBA özellikle dil eğitimi için tasarlanmış, gerçek zamanlı sesli konuşma yapabilen özel bir yapay zeka sistemidir. Temel farklar: (1) Etkileşim: ChatGPT metin tabanlı iken, BIBA sesli, görsel ve gerçek zamanlı konuşur - sizi duyar, dinler ve kamera ile görebilir. (2) Eğitim Odaklı: BIBA okul verileri ve ders müfredatı kapsamında konuşur, ChatGPT genel amaçlıdır. (3) Güvenlik: BIBA guardrail koruma kalkanı ile donatılmıştır - istenmeyen konuları tespit ettiğinde nazikçe konu değiştirir, yasaklı kelimelerde ise konuşmayı reddeder. (4) Simultane Çeviri: BIBA anlık eş zamanlı çeviri yapabilir, farklı diller arasında geçiş sağlar. (5) Raporlama: BIBA öğretmenlere öğrenci takibi ve gelişim raporlama özellikleri sunar. Özetle, ChatGPT ile sohbet edersiniz, BIBA ile güvenli ortamda dil pratiği yaparsınız.",
+      "Hayır, BiBA ChatGPT değildir. BiBA özellikle dil eğitimi için tasarlanmış, gerçek zamanlı sesli konuşma yapabilen özel bir yapay zeka sistemidir. Temel farklar: (1) Etkileşim: ChatGPT metin tabanlı iken, BiBA sesli, görsel ve gerçek zamanlı konuşur - sizi duyar, dinler ve kamera ile görebilir. (2) Eğitim Odaklı: BiBA okul verileri ve ders müfredatı kapsamında konuşur, ChatGPT genel amaçlıdır. (3) Güvenlik: BiBA guardrail koruma kalkanı ile donatılmıştır - istenmeyen konuları tespit ettiğinde nazikçe konu değiştirir, yasaklı kelimelerde ise konuşmayı reddeder. (4) Simultane Çeviri: BiBA anlık eş zamanlı çeviri yapabilir, farklı diller arasında geçiş sağlar. (5) Raporlama: BiBA öğretmenlere öğrenci takibi ve gelişim raporlama özellikleri sunar. Özetle, ChatGPT ile sohbet edersiniz, BiBA ile güvenli ortamda dil pratiği yaparsınız.",
   },
   {
-    question: "BIBA gerçek bir insan mı?",
+    question: "BiBA gerçek bir insan mı?",
     answer:
-      "Hayır, BIBA yapay zeka destekli bir sistemdir. Ancak öyle doğal konuşur ki gerçek bir öğretmen gibi hissettirir. Gerçek zamanlı konuşma, mimikler ve görsel etkileşim sayesinde çok gerçekçi bir deneyim sunar.",
+      "Hayır, BiBA yapay zeka destekli bir sistemdir. Ancak öyle doğal konuşur ki gerçek bir öğretmen gibi hissettirir. Gerçek zamanlı konuşma, mimikler ve görsel etkileşim sayesinde çok gerçekçi bir deneyim sunar.",
   },
   {
     question: "İnternet olmadan çalışır mı?",
     answer:
-      "Şu anda BIBA'nın çalışması için internet bağlantısı gerekiyor. Minimum 2 Mbps hız önerilir, 5 Mbps ve üzeri ideal deneyim için yeterlidir. Gelecekte offline versiyonu planlanıyor.",
+      "Şu anda BiBA'nın çalışması için internet bağlantısı gerekiyor. Minimum 2 Mbps hız önerilir, 5 Mbps ve üzeri ideal deneyim için yeterlidir. Gelecekte offline versiyonu planlanıyor.",
   },
   {
     question: "Kaç öğrenci aynı anda kullanabilir?",
@@ -33,7 +33,7 @@ const faqs = [
   {
     question: "Hangi diller destekleniyor?",
     answer:
-      "BIBA 15 farklı dili destekler: İngilizce, Türkçe, Almanca, Fransızca, İspanyolca, İtalyanca, Portekizce, Rusça, Arapça, Çince, Japonca, Korece, Hollandaca, Yunanca ve Lehçe. Dilden dile anında geçiş yapabilir, çoklu dilde pratik yapabilirsiniz.",
+      "BiBA 15 farklı dili destekler: İngilizce, Türkçe, Almanca, Fransızca, İspanyolca, İtalyanca, Portekizce, Rusça, Arapça, Çince, Japonca, Korece, Hollandaca, Yunanca ve Lehçe. Dilden dile anında geçiş yapabilir, çoklu dilde pratik yapabilirsiniz.",
   },
   {
     question: "Öğrenci verileri saklanıyor mu?",
@@ -43,12 +43,12 @@ const faqs = [
   {
     question: "Mobil cihazlarda çalışır mı?",
     answer:
-      "Evet, BIBA akıllı telefon ve tabletlerde sorunsuz çalışır. Tarayıcınız varsa yeterli! Uygulama yüklemeye gerek yok. PC, tablet, telefon - her cihazda aynı deneyim.",
+      "Evet, BiBA akıllı telefon ve tabletlerde sorunsuz çalışır. Tarayıcınız varsa yeterli! Uygulama yüklemeye gerek yok. PC, tablet, telefon - her cihazda aynı deneyim.",
   },
   {
     question: "Görme yeteneği nasıl çalışır?",
     answer:
-      "BIBA sadece özel komutlar söylediğinizde kamerayı açar. 'Can you see me?' veya 'Bugün nasılım?' gibi komutlarla aktif olur. Görsel yapay zeka ile sizi tanır, kıyafetlerinizi görür ve doğal dille yorum yapar.",
+      "BiBA sadece özel komutlar söylediğinizde kamerayı açar. 'Can you see me?' veya 'Bugün nasılım?' gibi komutlarla aktif olur. Görsel yapay zeka ile sizi tanır, kıyafetlerinizi görür ve doğal dille yorum yapar.",
   },
   {
     question: "Öğretmenler gelişimi nasıl takip eder?",
@@ -86,7 +86,7 @@ export default function FAQSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            BIBA hakkında en çok sorulan sorular ve cevapları
+            BiBA hakkında en çok sorulan sorular ve cevapları
           </p>
         </motion.div>
 

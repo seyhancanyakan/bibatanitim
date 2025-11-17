@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BIBA - YÖM Koleji İngilizce Konuşma Asistanı",
+  title: "BiBA - YÖM Koleji İngilizce Konuşma Asistanı",
   description: "YÖM Okulları için özel olarak geliştirilen yapay zeka destekli İngilizce konuşma asistanı. Öğrencilerinizin İngilizce konuşma becerilerini geliştirin.",
 };
 

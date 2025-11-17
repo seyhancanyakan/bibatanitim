@@ -11,12 +11,12 @@ const usageScenarios = [
     scenarios: [
       {
         name: "Warming-up (Isınma)",
-        description: "Ders başında tüm sınıf BIBA ile selamlaşır. Her öğrenci kısa bir diyalog yapar.",
+        description: "Ders başında tüm sınıf BiBA ile selamlaşır. Her öğrenci kısa bir diyalog yapar.",
         duration: "5-10 dakika",
       },
       {
         name: "Grup Aktivitesi",
-        description: "Öğrenciler ikişerli veya gruplar halinde BIBA ile konuşur. Belirli konular verilir - tanışma, alışveriş vb.",
+        description: "Öğrenciler ikişerli veya gruplar halinde BiBA ile konuşur. Belirli konular verilir - tanışma, alışveriş vb.",
         duration: "15-20 dakika",
       },
       {
@@ -26,12 +26,12 @@ const usageScenarios = [
       },
       {
         name: "Akıllı Tahta Gösterimi",
-        description: "BIBA görüntüsü akıllı tahtada. Tüm sınıf görebilir ve takip edebilir.",
+        description: "BiBA görüntüsü akıllı tahtada. Tüm sınıf görebilir ve takip edebilir.",
         duration: "Tüm ders",
       },
       {
         name: "Eşzamanlı Kullanım",
-        description: "Onlarca öğrenci aynı anda kendi cihazlarından BIBA ile konuşabilir. Paralel pratik imkanı.",
+        description: "Onlarca öğrenci aynı anda kendi cihazlarından BiBA ile konuşabilir. Paralel pratik imkanı.",
         duration: "Sınırsız",
       },
     ],
@@ -46,27 +46,27 @@ const usageScenarios = [
     scenarios: [
       {
         name: "Tablet ile Pratik",
-        description: "Çocuklar evlerinde tablet ile rahatça BIBA ile konuşabilir. Mobilite ve kullanım kolaylığı.",
+        description: "Çocuklar evlerinde tablet ile rahatça BiBA ile konuşabilir. Mobilite ve kullanım kolaylığı.",
         duration: "İstediği kadar",
       },
       {
         name: "Laptop ile Ödev",
-        description: "Masabaşında laptop ile konuşma pratiği. Not alırken aynı anda BIBA ile diyalog kurabilir.",
+        description: "Masabaşında laptop ile konuşma pratiği. Not alırken aynı anda BiBA ile diyalog kurabilir.",
         duration: "20-30 dakika",
       },
       {
         name: "Görüntülü Etkileşim",
-        description: "BIBA'nın görme özelliğini evden kullanarak etkileşimli pratik. Kamera ile görsel geri bildirim.",
+        description: "BiBA'nın görme özelliğini evden kullanarak etkileşimli pratik. Kamera ile görsel geri bildirim.",
         duration: "Sınırsız",
       },
       {
         name: "Çoklu Karakter Deneyimi",
-        description: "Evden farklı BIBA karakterleri ile pratik yapma imkanı. Her karakter farklı kişilik.",
+        description: "Evden farklı BiBA karakterleri ile pratik yapma imkanı. Her karakter farklı kişilik.",
         duration: "İstediği kadar",
       },
       {
         name: "Rahat Ortamda Öğrenme",
-        description: "Kendi odasında, rahat bir şekilde, oyuncakları ile birlikte BIBA ile konuşma pratiği.",
+        description: "Kendi odasında, rahat bir şekilde, oyuncakları ile birlikte BiBA ile konuşma pratiği.",
         duration: "Sınırsız",
       },
     ],
@@ -84,7 +84,7 @@ const benefits = [
   {
     icon: Clock,
     title: "Zaman Tasarrufu",
-    description: "Öğretmenler her öğrenciyle birebir uğraşmak yerine BIBA'ya emanet edebilir",
+    description: "Öğretmenler her öğrenciyle birebir uğraşmak yerine BiBA'ya emanet edebilir",
   },
   {
     icon: Users,
@@ -112,11 +112,11 @@ export default function UsageSection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-              BIBA Nerede Kullanılır?
+              BiBA Nerede Kullanılır?
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Sınıf içi, laboratuvar, evden erişim... BIBA her ortamda
+            Sınıf içi, laboratuvar, evden erişim... BiBA her ortamda
             öğrencilerinize destek verir.
           </p>
         </motion.div>
@@ -281,7 +281,7 @@ export default function UsageSection() {
               Öğretmenler İçin Avantajlar
             </h3>
             <p className="text-blue-100 text-lg max-w-2xl mx-auto">
-              BIBA, öğretmenlerin iş yükünü azaltır ve öğrenci başarısını artırır
+              BiBA, öğretmenlerin iş yükünü azaltır ve öğrenci başarısını artırır
             </p>
           </div>
 

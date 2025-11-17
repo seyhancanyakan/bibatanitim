@@ -35,7 +35,7 @@ export default function CTASection() {
             </h2>
 
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              BIBA 3.0 - YÖM Special Edition ile okulunuza yenilikçi bir
+              BiBA 3.0 - YÖM Special Edition ile okulunuza yenilikçi bir
               İngilizce konuşma asistanı kazandırın. Demo talebinde bulunun,
               ücretsiz deneme yapın.
             </p>
@@ -86,7 +86,7 @@ export default function CTASection() {
             <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/resim/2025-11-16-01h18m53s_seed85352509_Smart brown owl character with blue round glasses.jpg"
-                alt="BIBA Character"
+                alt="BiBA Character"
                 fill
                 className="object-cover"
               />

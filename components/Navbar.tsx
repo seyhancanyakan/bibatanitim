@@ -18,7 +18,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "#ozellikler", label: "Özellikler" },
-    { href: "#dene", label: "BIBA ile Konuş" },
+    { href: "#dene", label: "BiBA ile Konuş" },
     { href: "#kullanim", label: "Kullanım" },
     { href: "#teknoloji", label: "Teknoloji" },
     { href: "#sss", label: "S.S.S" },
@@ -41,7 +41,7 @@ export default function Navbar() {
             </div>
             <div>
               <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
-                BIBA
+                BiBA
               </div>
               <div className="text-xs text-gray-600 hidden sm:block">
                 YÖM Special Edition

@@ -1,6 +1,6 @@
-# BIBA - YÖM Koleji Tanıtım Web Sitesi
+# BiBA - YÖM Koleji Tanıtım Web Sitesi
 
-YÖM Okulları için özel olarak geliştirilen yapay zeka destekli çoklu dil konuşma asistanı BIBA'nın profesyonel tanıtım web sitesi. 15 farklı dil desteği ile öğrencilerinizin dil becerilerini geliştirin.
+YÖM Okulları için özel olarak geliştirilen yapay zeka destekli çoklu dil konuşma asistanı BiBA'nın profesyonel tanıtım web sitesi. 15 farklı dil desteği ile öğrencilerinizin dil becerilerini geliştirin.
 
 ## 🎨 Özellikler
 
@@ -85,7 +85,7 @@ biba-tanitim/
 - Gerçek zamanlı konuşma, görme yeteneği, karakterler vb.
 
 ### 3. Character Section
-- BIBA karakterlerinin tanıtımı
+- BiBA karakterlerinin tanıtımı
 - 3 farklı baykuş karakteri
 - "Kendi karakterini oluştur" bölümü
 - Her karakter için detaylı kart
@@ -112,7 +112,7 @@ biba-tanitim/
 - Son harekete geçirici bölüm
 - İstatistikler
 - İletişim butonları
-- BIBA karakteri görseli
+- BiBA karakteri görseli
 
 ### 8. Footer
 - Hızlı bağlantılar
@@ -135,7 +135,7 @@ biba-tanitim/
 ## 🖼️ Kullanılan Görseller
 
 Tüm görseller `public/resim/` klasöründe:
-- BIBA baykuş karakterleri
+- BiBA baykuş karakterleri
 - YÖM okul fotoğrafları
 - Öğrenci kullanım görselleri
 - Kiosk ve sınıf içi kullanım
@@ -160,7 +160,7 @@ Tüm görseller `public/resim/` klasöründe:
 
 ## 📄 Lisans
 
-© 2025 BIBA - YÖM Okulları. Tüm hakları saklıdır.
+© 2025 BiBA - YÖM Okulları. Tüm hakları saklıdır.
 
 ## 📞 İletişim
 

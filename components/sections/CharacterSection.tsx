@@ -8,35 +8,35 @@ import Image from "next/image";
 
 const characters = [
   {
-    name: "BIBA Character 1",
+    name: "BiBA Character 1",
     description: "Akıllı ve sevimli karakter. Öğrencilerin favorisi!",
     image: "/resim/21.jpg",
     personality: "Dostça, Öğretici",
     color: "from-blue-500 to-cyan-500",
   },
   {
-    name: "BIBA Character 2",
+    name: "BiBA Character 2",
     description: "Eğlenceli ve enerjik karakter. İlgi çekici konuşmalar için ideal.",
     image: "/resim/22.jpg",
     personality: "Enerjik, Eğlenceli",
     color: "from-purple-500 to-pink-500",
   },
   {
-    name: "BIBA Character 3",
+    name: "BiBA Character 3",
     description: "Deneyimli ve sabırlı karakter. Başlangıç seviyesi için mükemmel.",
     image: "/resim/23.jpg",
     personality: "Sabırlı, Destekleyici",
     color: "from-orange-500 to-red-500",
   },
   {
-    name: "BIBA Character 4",
+    name: "BiBA Character 4",
     description: "Profesyonel ve bilgili karakter. İleri seviye konuşmalar için harika.",
     image: "/resim/24.jpg",
     personality: "Profesyonel, Bilgili",
     color: "from-green-500 to-teal-500",
   },
   {
-    name: "BIBA Character 5",
+    name: "BiBA Character 5",
     description: "Yaratıcı ve ilham verici karakter. Yaratıcı konuşmalar için mükemmel.",
     image: "/resim/31.jpg",
     personality: "Yaratıcı, İlham Verici",
@@ -66,7 +66,7 @@ export default function CharacterSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Her karakter BIBA&apos;nın farklı bir görünümü. Animasyonlu videolar,
+            Her karakter BiBA&apos;nın farklı bir görünümü. Animasyonlu videolar,
             mimikler ve doğal konuşma ile etkileşime geçin.
           </p>
         </motion.div>
@@ -175,7 +175,7 @@ export default function CharacterSection() {
                 Kendi Karakterinizi Oluşturun
               </h3>
               <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                BIBA&apos;ya kendi özel karakterinizi ekleyebilirsiniz! Karakter adı,
+                BiBA&apos;ya kendi özel karakterinizi ekleyebilirsiniz! Karakter adı,
                 görünüm ve kişilik özelliklerini belirleyin. Sistem otomatik olarak
                 karakterinizi canlandırır ve öğrencilerinizle etkileşime geçmesini sağlar.
               </p>
